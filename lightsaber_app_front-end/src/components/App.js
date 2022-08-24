@@ -23,6 +23,7 @@ function App() {
   // .filter((mac) => selectedCategory === "All" || mac.category === selectedCategory)
   // .filter((macTile) => macTile.action.toLowerCase().includes(searchQuery.toLowerCase())
   // );
+
   return (
     <div className="App">
       <header className="App-header">
@@ -41,6 +42,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <Homepage/>
     </div>
   );
 }
