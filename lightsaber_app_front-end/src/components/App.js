@@ -1,21 +1,23 @@
-import React from "react";
-
+import React, {useEffect, useState} from "react";
+import NavBar from './Header';
 
 function App() {
-  // const [users, setUsers] = useState([])
+  const [users, setUsers] = useState([])
 
+  useEffect(() => {
+    fetch('http://localhost:9292/user')
+    .then(res => res.json())
+    .then((users) => setUsers(users))
+  }, [])
 
-
-  // useEffect(() => {
-  //   fetch('http://localhost:9292/user')
-  //   .then(res => res.json())
-  //   .then((users) => setUsers(users))
-  // }, [])
-
+  const displayedUsers = users.filter((user => 
+    user.first_name.toLowerCase().includes(search.toLowerCase()))
+  );
 
   return (
     <div className="App">
       <header className="App-header">
+        <NavBar />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
