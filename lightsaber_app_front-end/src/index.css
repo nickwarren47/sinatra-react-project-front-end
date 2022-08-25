@@ -51,5 +51,13 @@ code {
   text-align: center;
 }
 
+.card-img-container-sith {
+  background: #870E04;
+  height: 300px;
+}
 
+.card-img-container-jedi {
+  background: #045387;
+  height: 300px;
+}
 
