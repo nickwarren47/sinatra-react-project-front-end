@@ -26,3 +26,26 @@ code {
 .jedi{
   color: black
 }
+
+#sith_img{
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;  
+  height: 700px;  
+  text-align: center;  
+  padding: 15px;  
+}
+
+#jedi_img{
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;  
+  height: 700px;  
+  text-align: center;  
+  padding: 15px;  
+}
+
+
+

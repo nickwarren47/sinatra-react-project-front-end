@@ -28,7 +28,7 @@ function App() {
         <NavBar />
         <Routes>
           <Route path='/' element={<Homepage/>}/>
-          <Route path='users' element={<Users/>}/>
+          <Route path='/users' element={<Users/>}/>
         {/* <Search search={searchUsers} onSearchChange={setSearchUsers}/> */}
         </Routes>
         </Router>
