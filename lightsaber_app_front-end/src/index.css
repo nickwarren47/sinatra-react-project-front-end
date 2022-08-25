@@ -47,8 +47,21 @@ code {
   padding: 15px;  
 }
 
-.homepage{
+.homePage{
   text-align: center;
+  background: black;
+}
+
+#app-body{
+  background: black;
+}
+
+#destiny{
+  color: yellow;
+}
+
+#objective{
+  color: yellow;
 }
 
 .card-img-container-sith {
