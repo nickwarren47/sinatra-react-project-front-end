@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.card-img-container {
+  background: #1a1919;
+  height: 300px;
+}
+
+.card-img {
+  object-fit: contain;
+  width: 100%;
+  height: 300px;
+}
+
+.jedi{
+  color: black
+}
