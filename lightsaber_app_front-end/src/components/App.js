@@ -28,7 +28,7 @@ function App() {
       <header>
 
       </header>
-      <body>
+      <body id="app-body">
         <Router >
         <NavBar />
         <Routes>
