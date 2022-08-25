@@ -27,8 +27,8 @@ function App() {
         <Router >
         <NavBar />
         <Routes>
-          <Route exact path='/' element={<Homepage/>}/>
-          <Route path='/users' element={<Users/>}/>
+          <Route path='/' element={<Homepage/>}/>
+          <Route path='users' element={<Users/>}/>
         {/* <Search search={searchUsers} onSearchChange={setSearchUsers}/> */}
         </Routes>
         </Router>
