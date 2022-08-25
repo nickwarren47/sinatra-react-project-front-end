@@ -4,6 +4,7 @@ import NavBar from './NavBar';
 import Homepage from './Homepage'
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import Users from './Users'
+import Jedi from './JediListing'
 
 function App() {
   // const [searchUsers, setSearchUsers] = useState([])
@@ -29,6 +30,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Homepage/>}/>
           <Route path='/users' element={<Users/>}/>
+          <Route path='/jedi' element={<Jedi/>}/>
         {/* <Search search={searchUsers} onSearchChange={setSearchUsers}/> */}
         </Routes>
         </Router>
