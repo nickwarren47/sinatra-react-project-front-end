@@ -6,6 +6,7 @@ import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import Users from './Users'
 import Jedi from './JediListing'
 import Sith from './SithListing'
+import AboutUs from './AboutUs'
 
 function App() {
   // const [searchUsers, setSearchUsers] = useState([])
@@ -36,6 +37,7 @@ function App() {
           <Route path='/users' element={<Users/>}/>
           <Route path='/jedi' element={<Jedi/>}/>
           <Route path='/sith' element={<Sith/>}/>
+          <Route path='/aboutus' element={<AboutUs/>}/>
         {/* <Search search={searchUsers} onSearchChange={setSearchUsers}/> */}
         </Routes>
         </Router>

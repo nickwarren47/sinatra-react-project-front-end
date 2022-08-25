@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 
 function NavBar() {
     return(
-    <Menu className='menu'>
+    <Menu className='menu' inverted>
       <Menu.Item>
         <Link to="/">
           <Icon name="home" />
@@ -23,6 +23,16 @@ function NavBar() {
       <Menu.Item>
         <Link to="/sith">
           <Icon name="fire" />
+        </Link>
+      </Menu.Item>
+      <Menu.Item>
+        <Link to="/user-form">
+          <Icon name="clipboard" />
+        </Link>
+      </Menu.Item>
+      <Menu.Item>
+        <Link to="/aboutus">
+          <Icon name="address book" />
         </Link>
       </Menu.Item>
     </Menu>

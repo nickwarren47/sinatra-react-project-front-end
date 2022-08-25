@@ -39,7 +39,7 @@ code {
 
 #sith_img:hover{
   border-color: #66afe9;
-  box-shadow: 0 0 8px rgba(200,0,0, 1);
+  box-shadow: 0 0 20px rgba(200,0,0, 1);
 }
 
 #jedi_img{
@@ -54,7 +54,7 @@ code {
 
 #jedi_img:hover{ 
   border-color: #66afe9;
-  box-shadow: 0 0 8px rgba(0,0,200, 1);
+  box-shadow: 0 0 20px rgba(0,0,200, 1);
 }
 
 
@@ -72,8 +72,21 @@ code {
   color: yellow;
 }
 
+#honor{
+  color:yellow;
+}
+
 #objective{
   color: yellow;
+}
+
+#meet-developers{
+  color: #0DDAEA;
+  text-align: center; 
+}
+
+#developer-cards{
+  margin: 0px;
 }
 
 .card-img-container-sith {
