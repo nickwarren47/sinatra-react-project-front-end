@@ -17,7 +17,12 @@ function NavBar() {
       </Menu.Item>
       <Menu.Item>
         <Link to="/jedi">
-          <Icon name="jedi" />
+          <Icon name="star" />
+        </Link>
+      </Menu.Item>
+      <Menu.Item>
+        <Link to="/sith">
+          <Icon name="fire" />
         </Link>
       </Menu.Item>
     </Menu>
