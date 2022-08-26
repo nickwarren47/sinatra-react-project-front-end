@@ -8,6 +8,7 @@ import Jedi from './JediListing'
 import Sith from './SithListing'
 import AboutUs from './AboutUs'
 import AddUser from "./AddUser";
+import Lightsaber from "./Lightsaber"
 
 function App() {
   // const [searchUsers, setSearchUsers] = useState([])
@@ -47,6 +48,7 @@ function App() {
           <Route path='/sith' element={<Sith/>}/>
           <Route path='/adduser' element={<AddUser />}/>
           <Route path='/aboutus' element={<AboutUs/>}/>
+          <Route path='/lightsaber' element={<Lightsaber/>}/>
         {/* <Search search={searchUsers} onSearchChange={setSearchUsers}/> */}
         </Routes>
         </Router>
