@@ -132,7 +132,8 @@ margin: 0;
 }
 
 #developer-cards{
-  margin: 0px;
+  margin: 10px;
+  margin-bottom: 50px;
 }
 
 .card-img-container-sith {
@@ -158,5 +159,9 @@ margin: 0;
 }
 
 .sith-display{
+  margin: 10px;
+}
+
+.users-display{
   margin: 10px;
 }
