@@ -1,5 +1,5 @@
 import { Card} from "semantic-ui-react";
-import UserForm from "./UserForm";
+
 
 function UserCard ({user}) {
 
@@ -21,7 +21,7 @@ function UserCard ({user}) {
             Species: {user.species}
           </Card.Description>
         </Card.Content>
-        {/* <UserForm/> */}
+        
       </Card>
     )
 }
