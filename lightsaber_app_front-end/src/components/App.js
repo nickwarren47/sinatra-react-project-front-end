@@ -7,7 +7,7 @@ import Users from './Users'
 import Jedi from './JediListing'
 import Sith from './SithListing'
 import AboutUs from './AboutUs'
-
+// import banner from '/banner.gif'
 function App() {
   // const [searchUsers, setSearchUsers] = useState([])
 
@@ -26,8 +26,9 @@ function App() {
 
   return (
     <div>
-      <header>
-
+      <header id="star">
+      <img id="banner-img" src="/banner.gif" alt="banner" class="center"/>
+      {/* <img id="star-background" src="/background.gif" alt="background-stars"/> */}
       </header>
       <body id="app-body">
         <Router >
