@@ -27,6 +27,12 @@ function App() {
   // .filter((macTile) => macTile.action.toLowerCase().includes(searchQuery.toLowerCase())
   // );
 
+
+  function handleAddUser(newUser){
+    setAddUser([...users, newUser])
+  }
+
+
   return (
     <div>
       <header id="star">
@@ -41,7 +47,7 @@ function App() {
           <Route path='/users' element={<Users/>}/>
           <Route path='/jedi' element={<Jedi/>}/>
           <Route path='/sith' element={<Sith/>}/>
-          <Route path='/adduser' element={<AddUser/>}/>
+          <Route path='/adduser' element={<AddUser />}/>
           <Route path='/aboutus' element={<AboutUs/>}/>
           <Route path='/lightsaber' element={<Lightsaber/>}/>
           <Route path='/lightsaber_blade' element={<Blades/>}/>
