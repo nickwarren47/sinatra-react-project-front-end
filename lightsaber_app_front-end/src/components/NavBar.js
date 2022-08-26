@@ -38,12 +38,12 @@ function NavBar() {
        </Menu.Item> 
        <Menu.Item>
         <Link to="/lightsaber">
-          <Icon name="lightning" />
+          <Icon size="huge" name="lightning" />
         </Link>
       </Menu.Item>
       <Menu.Item>
         <Link to="/lightsaber_blade">
-          <Icon name="minus" />
+          <Icon size="huge" name="minus" />
         </Link>
       </Menu.Item>
       <Menu.Item>

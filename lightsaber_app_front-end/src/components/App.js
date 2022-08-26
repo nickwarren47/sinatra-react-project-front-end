@@ -10,7 +10,6 @@ import Sith from './SithListing'
 import AboutUs from './AboutUs'
 import AddJediUser from "./AddJediUser"; 
 import AddSithUser from "./AddSithUser"; 
-import AddUser from "./AddUser";
 import Lightsaber from "./Lightsaber"
 import Blades from "./Blades"
 
@@ -64,12 +63,6 @@ function App() {
     .then(res => res.json())
     .then((users) => setUsers(users))
   }, [])
-
-
-  function handleAddUser(newUser){
-    setAddUser([...users, newUser])
-  }
-
 
   return (
     <div>
