@@ -4,6 +4,8 @@ import { Card } from "semantic-ui-react";
 
 
 function Users(){
+
+    
     const [users, setUsers] = useState([])
     useEffect(() => {
         fetch('http://localhost:9292/users')
