@@ -1,7 +1,15 @@
-import { Card} from "semantic-ui-react";
+import { Card, Button } from "semantic-ui-react";
 
 
-function UserCard ({user}) {
+function UserCard ({user, onUserDelete}) {
+
+  function onUserRemoveClick() {
+    fetch(`http://localhost:9292/users/${user.id}`, {
+      method: "DELETE",
+    });
+
+    onUserDelete(user.id)
+  }
 
     return(
         <Card>
@@ -21,7 +29,7 @@ function UserCard ({user}) {
             Species: {user.species}
           </Card.Description>
         </Card.Content>
-        
+        <Button size="large" onClick={onUserRemoveClick}>Remove</Button>
       </Card>
     )
 }

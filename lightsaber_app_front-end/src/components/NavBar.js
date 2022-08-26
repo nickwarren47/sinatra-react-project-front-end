@@ -1,5 +1,5 @@
 import React from "react";
-import { Menu, Icon } from 'semantic-ui-react';
+import { Menu, Icon, Button } from 'semantic-ui-react';
 import {Link} from 'react-router-dom';
 
 function NavBar() {
@@ -7,25 +7,36 @@ function NavBar() {
     <Menu className='menu' inverted>
       <Menu.Item>
         <Link to="/">
-          <Icon name="home" />
+          <Icon name="home" size="huge" />
         </Link>
       </Menu.Item>
       <Menu.Item>
         <Link to="/users">
-          <Icon name="users" />
+          <Button color="white" size="huge">All Users</Button>
         </Link>
       </Menu.Item>
       <Menu.Item>
         <Link to="/jedi">
-          <Icon name="star" />
+          <Button color="blue" size="huge">All Jedis</Button>
         </Link>
       </Menu.Item>
       <Menu.Item>
         <Link to="/sith">
-          <Icon name="fire" />
+          <Button color="red" size="huge">All Siths</Button>
         </Link>
       </Menu.Item>
       <Menu.Item>
+        <Button.Group>
+          <Link to="/addjediuser">
+            <Button color='blue' size="huge">Become Jedi</Button>
+          </Link>
+            <Button.Or />
+          <Link to="/addsithuser">
+            <Button color='red' size="huge">Become Sith</Button>
+          </Link>
+          </Button.Group>
+       </Menu.Item> 
+       <Menu.Item>
         <Link to="/lightsaber">
           <Icon name="lightning" />
         </Link>
@@ -36,13 +47,8 @@ function NavBar() {
         </Link>
       </Menu.Item>
       <Menu.Item>
-        <Link to="/adduser">
-          <Icon name="clipboard" />
-        </Link>
-      </Menu.Item>
-      <Menu.Item>
         <Link to="/aboutus">
-          <Icon name="address book" />
+          <Icon name="address book" size="huge" />
         </Link>
       </Menu.Item>
     </Menu>
