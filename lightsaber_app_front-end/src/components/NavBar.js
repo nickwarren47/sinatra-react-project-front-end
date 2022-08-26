@@ -26,16 +26,26 @@ function NavBar() {
         </Link>
       </Menu.Item>
       <Menu.Item>
-      <Button.Group>
-        <Link to="/addjediuser">
-          <Button color='blue' size="huge">Become Jedi</Button>
+        <Button.Group>
+          <Link to="/addjediuser">
+            <Button color='blue' size="huge">Become Jedi</Button>
+          </Link>
+            <Button.Or />
+          <Link to="/addsithuser">
+            <Button color='red' size="huge">Become Sith</Button>
+          </Link>
+          </Button.Group>
+       </Menu.Item> 
+       <Menu.Item>
+        <Link to="/lightsaber">
+          <Icon name="lightning" />
         </Link>
-          <Button.Or />
-        <Link to="/addsithuser">
-          <Button color='red' size="huge">Become Sith</Button>
+      </Menu.Item>
+      <Menu.Item>
+        <Link to="/lightsaber_blade">
+          <Icon name="minus" />
         </Link>
-        </Button.Group>
-      </Menu.Item> 
+      </Menu.Item>
       <Menu.Item>
         <Link to="/aboutus">
           <Icon name="address book" size="huge" />
