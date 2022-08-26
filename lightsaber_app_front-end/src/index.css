@@ -150,6 +150,14 @@ margin: 0;
   background: black;
 }
 
+.card-img-container-blade{
+  background: black;
+}
+
+.blade-display{
+  margin:10px;
+}
+
 .lightsaber-display{
   margin: 10px;
 }

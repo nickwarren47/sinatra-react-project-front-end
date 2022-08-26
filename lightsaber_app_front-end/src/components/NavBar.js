@@ -31,6 +31,11 @@ function NavBar() {
         </Link>
       </Menu.Item>
       <Menu.Item>
+        <Link to="/lightsaber_blade">
+          <Icon name="minus" />
+        </Link>
+      </Menu.Item>
+      <Menu.Item>
         <Link to="/adduser">
           <Icon name="clipboard" />
         </Link>

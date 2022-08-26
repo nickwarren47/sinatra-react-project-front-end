@@ -9,6 +9,7 @@ import Sith from './SithListing'
 import AboutUs from './AboutUs'
 import AddUser from "./AddUser";
 import Lightsaber from "./Lightsaber"
+import Blades from "./Blades"
 
 function App() {
   // const [searchUsers, setSearchUsers] = useState([])
@@ -49,6 +50,7 @@ function App() {
           <Route path='/adduser' element={<AddUser />}/>
           <Route path='/aboutus' element={<AboutUs/>}/>
           <Route path='/lightsaber' element={<Lightsaber/>}/>
+          <Route path='/lightsaber_blade' element={<Blades/>}/>
         {/* <Search search={searchUsers} onSearchChange={setSearchUsers}/> */}
         </Routes>
         </Router>
