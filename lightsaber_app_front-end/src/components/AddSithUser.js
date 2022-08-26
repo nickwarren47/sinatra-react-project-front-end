@@ -36,7 +36,6 @@ function AddSithUser({ postNewSithUser }){
     postNewSithUser(postReqObj)
   }
 
-
   return(    
     <Form onSubmit={handleSubmit}>
       <Form.Field>

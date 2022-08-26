@@ -62,6 +62,12 @@ function App() {
     .then((users) => setUsers(users))
   }, [])
 
+
+  function handleAddUser(newUser){
+    setAddUser([...users, newUser])
+  }
+
+
   return (
     <div>
       <header id="star">
