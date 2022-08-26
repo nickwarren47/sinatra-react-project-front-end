@@ -27,7 +27,6 @@ code {
   color: black
 }
 
-
 /* #banner-img{
   display: inline-block;
   margin-left: auto;
@@ -146,3 +145,18 @@ margin: 0;
   height: 300px;
 }
 
+.card-img-container-lightsaber{
+  background: black;
+}
+
+.lightsaber-display{
+  margin: 10px;
+}
+
+.jedi-display{
+  margin: 10px;
+}
+
+.sith-display{
+  margin: 10px;
+}
