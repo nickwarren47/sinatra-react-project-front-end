@@ -23,6 +23,7 @@ function Users(){
             <Card.Group itemsPerRow={4}>
                 {userCards}
             </Card.Group>
+    
         </div>
     )
 }

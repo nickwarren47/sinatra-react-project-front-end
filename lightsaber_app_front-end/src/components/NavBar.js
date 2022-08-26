@@ -26,7 +26,7 @@ function NavBar() {
         </Link>
       </Menu.Item>
       <Menu.Item>
-        <Link to="/user-form">
+        <Link to="/adduser">
           <Icon name="clipboard" />
         </Link>
       </Menu.Item>
