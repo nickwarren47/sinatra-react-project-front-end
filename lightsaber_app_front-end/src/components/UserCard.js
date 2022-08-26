@@ -1,5 +1,6 @@
 import { Card} from "semantic-ui-react";
 
+
 function UserCard ({user}) {
 
     return(
@@ -20,6 +21,7 @@ function UserCard ({user}) {
             Species: {user.species}
           </Card.Description>
         </Card.Content>
+        
       </Card>
     )
 }
