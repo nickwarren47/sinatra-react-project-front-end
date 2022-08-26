@@ -33,7 +33,7 @@ return(
         <Card.Header>Nick Warren</Card.Header>
         <Card.Meta>Full Stack Software Engineer Jedi</Card.Meta>
         <Card.Description>
-          Nick, a Software Engineer master he is. Mastered software engineering he did, from the Flatiron School Jedi Temple where he resides in Denver, Colorado.
+          Nick, a Software Engineer master he is. Practiced and honed his software skills at the Flatiron School Jedi Temple where he resides in Denver, Colorado.
         </Card.Description>
       </Card.Content>
     </Card>
